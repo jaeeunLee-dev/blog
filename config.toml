@@ -51,9 +51,13 @@ github_project_repo = "https://github.com/jaeeunLee-dev/blog"
 	url = "https://github.com/jaeeunLee-dev"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
+# footer 
+[params]
+copyright = "Jaeeun Lee"
 
 #rss
 rss_section = ["blog"]
 
 # 로고
 navbar_logo = false # 사용하려면 true (assets/icons/logo.svg이미지)
+
