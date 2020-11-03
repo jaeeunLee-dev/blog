@@ -41,7 +41,7 @@ github_project_repo = "https://github.com/jaeeunLee-dev/blog"
 # 최종 사용자 관련 링크. 왼쪽
 [[params.links.user]]
 	name = "Mail"
-	url = "lje3896@naver.com"
+	url = "mailto:lje3896@naver.com"
 	icon = "fa fa-envelope"
         desc = "Discussion and help from your fellow users"
 # Developer relevant links. right side of footer
