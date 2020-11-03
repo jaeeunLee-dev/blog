@@ -1,11 +1,16 @@
 theme = "docsy"
 
+# Language settings
+# 언어 설정
 contentDir = "content/ko"
 defaultContentLanguage = "ko"
 defaultContentLanguageInSubdir = false
 
+# Useful when translating.
 enableMissingTranslationPlaceholders = true
 
+# Language configuration
+# 한국어 설정
 [languages.ko]
 title = "Jaeeun Lee"
 languageName ="Korean"
@@ -13,4 +18,36 @@ contentDir = "content/ko"
 time_format_default = "2020.11.01"
 time_format_blog = "2020.11.01"
 
+# Weight used for sorting.
 weight = 1
+
+# search 기능
+#  Enable Lunr.js offline search
+#  local search 방식
+offlineSearch = true
+#  Enable Algolia DocSearch
+#  충돌방지 (false)
+algolia_docsearch = false
+
+# 페이지 편집 기능
+# Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+github_repo = "https://github.com/jaeeunLee-dev/blog"
+# An optional link to a related project repo. For example, the sibling repository where your product code lives.
+github_project_repo = "https://github.com/jaeeunLee-dev/blog"
+
+#footer links
+[params.links]
+# End user relevant links. left side of footer
+# 최종 사용자 관련 링크. 왼쪽
+[[params.links.user]]
+	name = "Mail"
+	url = "lje3896@naver.com"
+	icon = "fa fa-envelope"
+        desc = "Discussion and help from your fellow users"
+# Developer relevant links. right side of footer
+# 개발자 관련 링크. 오른쪽
+[[params.links.developer]]
+	name = "GitHub"
+	url = "https://github.com/jaeeunLee-dev"
+	icon = "fab fa-github"
+        desc = "Development takes place here!"
