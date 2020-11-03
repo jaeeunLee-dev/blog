@@ -1,4 +1,16 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "docsy"
+
+contentDir = "content/ko"
+defaultContentLanguage = "ko"
+defaultContentLanguageInSubdir = false
+
+enableMissingTranslationPlaceholders = true
+
+[languages.ko]
+title = "Jaeeun Lee"
+languageName ="Korean"
+contentDir = "content/ko"
+time_format_default = "2020.11.01"
+time_format_blog = "2020.11.01"
+
+weight = 1
