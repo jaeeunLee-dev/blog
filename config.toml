@@ -15,8 +15,8 @@ enableMissingTranslationPlaceholders = true
 title = "Jaeeun Lee"
 languageName ="Korean"
 contentDir = "content/ko"
-time_format_default = "2020.11.01"
-time_format_blog = "2020.11.01"
+time_format_default = "2006.01.02"
+time_format_blog = "2006.01.02"
 
 # Weight used for sorting.
 weight = 1
@@ -51,3 +51,9 @@ github_project_repo = "https://github.com/jaeeunLee-dev/blog"
 	url = "https://github.com/jaeeunLee-dev"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
+
+#rss
+rss_section = ["blog"]
+
+# 로고
+navbar_logo = false # 사용하려면 true (assets/icons/logo.svg이미지)
