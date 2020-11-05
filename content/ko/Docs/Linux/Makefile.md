@@ -3,7 +3,7 @@ title: "Makefile"
 linkTitle: "Makefile"
 type : docs
 date: 2020-11-05T22:25:46+09:00
-draft: true
+draft: flase
 ---
 
 **[정의]**
@@ -12,7 +12,7 @@ draft: true
 
 Makefile을 통하여 library 및 컴파일 환경을 관리 가능
 
-프로젝트 실행파일 생성 방법 : C source를 컴파일 하여 object 파일을 만들고 object 몇 개를 묶어서 링크(Link)과정을 거쳐 만들어짐.
+	프로젝트 실행파일 생성 방법 : C source를 컴파일 하여 object 파일을 만들고 object 몇 개를 묶어서 링크(Link)과정을 거쳐 만들어짐.
 
 **[기본구조]**
 
