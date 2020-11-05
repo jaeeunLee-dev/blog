@@ -53,3 +53,12 @@ $< : 현재의 target보다 더 최근에 갱신된 파일 이름 ($?와 비슷�
 
 $% : 대상의 이름(현재 규칙 대상이 아카이브인 경우)
 
+**[참고]**
+
+[http://doc.kldp.org/KoreanDoc/html/GNU-Make/GNU-Make-3.html](http://doc.kldp.org/KoreanDoc/html/GNU-Make/GNU-Make-3.html)
+
+[http://korea.gnu.org/manual/4check/make-3.77/ko/make_8.html](http://korea.gnu.org/manual/4check/make-3.77/ko/make_8.html)
+
+[https://bowbowbow.tistory.com/12](https://bowbowbow.tistory.com/12)
+
+[https://doitnow-man.tistory.com/100](https://doitnow-man.tistory.com/100)
