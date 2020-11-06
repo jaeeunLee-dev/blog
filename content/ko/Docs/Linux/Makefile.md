@@ -26,6 +26,10 @@ Depend(의존관계) : Target을 만들 때 의존되는 파일 (Target을 만�
 
 Command(명령) : 빌드 대상을 생성하는 명령 (일반 Shell 명령)
 
+### **[옵션]**
+
+-C [디렉토리경로] : Makefile을 계속 읽지 말고 우선 디렉토리 경로로 이동하라는 것. 
+
 ### **[변수]**
 
 CC : 컴파일러
@@ -54,14 +58,21 @@ $% : 대상의 이름(현재 규칙 대상이 아카이브인 경우)
 
 ### **[문법]**
 
-$(addprefix [prefix], [names]...) : prefix의 값은 각 개별 이름의 앞에 붙고, 그들 사이에 단일 스페이스로 채워 연결된 커다란 이름을 만듦
+`$(addprefix [prefix], [names]...)` : prefix의 값은 각 개별 이름의 앞에 붙고, 그들 사이에 단일 스페이스로 채워 연결된 커다란 이름을 만듦
 
 	ex) $(addprefix src/, foo bar) => 'src/foo src/bar'
 
 
-$([MACRO_NAME] : [OLD] = [NEW]) : 매크로 치환, OLD 가 NEW로 치환
+`$([MACRO_NAME] : [OLD] = [NEW])` : 매크로 치환, OLD 가 NEW로 치환
 
 	ex) $(SRCS : .c = .o) -> SRCS목록의 .c를 .o로 치환
+
+@(recipe echoing) : 명령어의 출력이 되지 않음.
+
+### **[포니 타겟]**
+
+`.PHONY: [target]` : 이름이 같은 파일과의 충돌을 피하기 위함. target이 파일이름을 나타내지 않음을 의미.
+
 
 
 ### **[참고]**
